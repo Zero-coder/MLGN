@@ -1,7 +1,6 @@
 # MICN
-Code release of paper ["MICN: Multi-scale Local and Global Context Modeling for Long-term Series Forecasting"](https://openreview.net/pdf?id=zt53IDUR1U) (ICLR 2023 oral)
-
-MICN achieve SOTA on six benchmarks.
+Code release of paper ["Multi-Scale Local-Global Feature Learning Network for Long-term Series Forecasting"](https://openreview.net/) 
+MLGN achieve SOTA on six benchmarks.
 
 ##  Overall Architecture
 As shown in Figure 1, we decompose the time series into seasonal part and trend part by Multi-scale Hybrid Decomposition. For seasonal part, we use Seasonal Prediction block to predict. For trend part, we use simple regression to predict. 
