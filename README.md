@@ -64,15 +64,13 @@ Visualization of learned trend-cyclical part prediction and seasonal part predic
 
 
 ## Contact
-If you have any questions, please contact wanghuiqiang@stu.scu.edu.cn. Welcome to discuss together.
+If you have any questions, please contact jiangmaowei@sia.cn. Welcome to discuss together.
 
 ## Citation
 If you find this repo useful, please cite our paper
 ```
 @article{micn,
-  title={MICN: Multi-scale Local and Global Context Modeling for Long-term Series Forecasting},
-  author={Huiqiang Wang and Jian Peng and Feihu Huang and Jince Wang and Junhui Chen and Yifei Xiao},
-  booktitle={International Conference on Learning Representations},
+  title={MLCN: Multi-scale Local and Global Context Modeling for Long-term Series Forecasting},
   year={2023}
 }
 ```
