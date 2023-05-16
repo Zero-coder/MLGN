@@ -28,14 +28,14 @@ We use down-sampling interactive learning convolution to capture local features 
 #### Interactive learning convolution
 We use downsampling convolution to capture local features.
 <p align="center">
-<img src=".\img\ILC.png" height = "150" alt="" align=center />
+<img src=".\img\ILC.png" height = "120" alt="" align=center />
 <br><br>
 </p>
 
 #### Causal frequency enhancement module
 We use causal frequency enhancement module to discover global correlations
 <p align="center">
-<img src=".\img\CFE.png" height = "150" alt="" align=center />
+<img src=".\img\CFE.png" height = "200" alt="" align=center />
 <br><br>
 </p>
 
