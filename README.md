@@ -98,8 +98,8 @@ If you have any questions, please contact jiangmaowei@sia.cn. Welcome to discuss
 ## Citation
 If you find this repo useful, please cite our paper
 ```
-@article{micn,
-  title={MLCN: Multi-Scale Local-Global Feature Learning Network for Long-term Series Forecasting},
+@article{mlgn,
+  title={MLGN: Multi-Scale Local-Global Feature Learning Network for Long-term Series Forecasting},
   year={2023}
 }
 ```
