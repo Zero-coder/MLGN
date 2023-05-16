@@ -2,6 +2,8 @@
 Code release of paper ["Multi-Scale Local-Global Feature Learning Network for Long-term Series Forecasting"](https://openreview.net/) 
 MLGN achieve SOTA on six benchmarks.
 
+![state-of-the-art](https://img.shields.io/badge/-STATE--OF--THE--ART-blue?logo=Accenture&labelColor=lightgrey)![pytorch](https://img.shields.io/badge/-PyTorch-%23EE4C2C?logo=PyTorch&labelColor=lightgrey)
+
 ##  Overall Architecture
 As shown in Figure 1, we decompose the time series into seasonal part and trend part by Multi-scale Sequence Decomposition. For seasonal part, we use Seasonal Component Prediction block to predict. For trend part, we use a simple full-connected layer to predict. 
 <p align="center">
