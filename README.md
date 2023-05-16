@@ -73,11 +73,23 @@ bash ./scipts/ILI.sh
 ![arch](./img/CFE_results.png)
 
 ### Visualization
-Visualization of learned trend-cyclical part prediction and seasonal part prediction.
+Visualization of forecasting results: The forecasting results from the test set of univariate
+datasets, Electricity and Traffic, are visualized in Figure.9 and Figure.10.
+The forecasting results from the test set of multivariate datasets, ETTm1 and ETTm2,
+are visualized in Figure.11 and Figure.12.
 
-![arch](./img/visualization.png)
-
-
+![arch](./img/uni_E_MLGN.png)
+Figure 9: Univariate forecasting cases using the Electricity dataset with model MLGN. Input-length =
+96, Prediction-length = (96, 192, 336, 720).
+![arch](./img/uni_T_MLGN.png)
+Figure 10: Univariate forecasting cases using the Traffic dataset with model MLGN. Input-length = 96,
+Prediction-length = (96, 192, 336, 720).
+![arch](./img/mul_ettm1_MLGN.png)
+Figure 11: Multivariate forecasting cases using the ETTm1 dataset with model MLGN. Input-length =
+96, Prediction-length = (96, 192, 336, 720).
+![arch](./img/mul_ettm2_MLGN.png)
+Figure 12: Multivariate forecasting cases using the ETTm2 dataset with model MLGN. Input-length =
+96, Prediction-length = (96, 192, 336, 720).
 ## Contact
 If you have any questions, please contact jiangmaowei@sia.cn. Welcome to discuss together.
 
