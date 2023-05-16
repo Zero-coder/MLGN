@@ -4,13 +4,13 @@ from models.embed import DataEmbedding
 from models.local_global import Seasonal_Prediction, series_decomp_multi
 
 
-class MICN(nn.Module):
+class MLGN(nn.Module):
     def __init__(self, dec_in, c_out, seq_len, label_len, out_len,
                  d_model=512, n_heads=8,d_layers=2,
                  dropout=0.0,embed='fixed', freq='h',
                  device=torch.device('cuda:0'), mode='regre',
                  decomp_kernel=[33], conv_kernel=[12, 24], isometric_kernel=[18, 6],):
-        super(MICN, self).__init__()
+        super(MLGN, self).__init__()
 
         self.pred_len = out_len
         self.seq_len = seq_len
