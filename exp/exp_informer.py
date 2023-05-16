@@ -1,6 +1,6 @@
 from data.data_loader import Dataset_ETT_hour, Dataset_ETT_minute, Dataset_Custom, Dataset_Pred
 from exp.exp_basic import Exp_Basic
-from models.model import MICN
+from models.model import MLGN
 
 import math
 from utils.tools import EarlyStopping, adjust_learning_rate,visual
@@ -27,7 +27,7 @@ class Exp_Informer(Exp_Basic):
 
     def _build_model(self):
         model_dict = {
-            'micn':MICN,
+            'mlgn':MLGN,
         }
 
         if self.args.model=='micn':
