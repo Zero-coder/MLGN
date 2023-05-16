@@ -97,7 +97,7 @@ If you have any questions, please contact jiangmaowei@sia.cn. Welcome to discuss
 If you find this repo useful, please cite our paper
 ```
 @article{micn,
-  title={MLCN: Multi-scale Local and Global Context Modeling for Long-term Series Forecasting},
+  title={MLCN: Multi-Scale Local-Global Feature Learning Network for Long-term Series Forecasting},
   year={2023}
 }
 ```
