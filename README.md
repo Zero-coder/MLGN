@@ -66,10 +66,11 @@ bash ./scipts/ILI.sh
 ![arch](./img/uni_results.png)
 
 ### Model Analysis
-#### Local-global vs. self-attetion, Auto-correlation
+#### ILC vs. RC
 
-![arch](./img/local-global-analysis1.png)
-![arch](./img/local-global-analysis2.png)
+![arch](./img/ILC_results.png)
+#### CFE vs. Masked self-attention, Isometric convolution
+![arch](./img/CFE_results.png)
 
 ### Visualization
 Visualization of learned trend-cyclical part prediction and seasonal part prediction.
