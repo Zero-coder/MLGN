@@ -11,7 +11,7 @@ As shown in Figure 1, we decompose the time series into seasonal part and trend 
 
 
 ### Seasonal Prediction block
-The seasonal part contains several different patterns after Multi-scale Hybrid Decomposition. For each pattern, we use local-global module to extract local information and global correlations. 
+The seasonal part contains several different patterns after Multi-scale Sequence Decomposition. For each pattern, we use local-global module to discovery local temporal features and global relations. 
 <p align="center">
 <img src=".\img\seasonal.png" height = "250" alt="" align=center />
 <br><br>
@@ -19,9 +19,23 @@ The seasonal part contains several different patterns after Multi-scale Hybrid D
 
 
 #### Local-Global module
-We use downsampling convolution to extract local features and isometric convolution to capture global correlations. 
+We use down-sampling interactive learning convolution to capture local features and causal frequency enhancement module to discover global correlations. 
 <p align="center">
 <img src=".\img\LG.png" height = "150" alt="" align=center />
+<br><br>
+</p>
+
+#### Interactive learning convolution
+We use downsampling convolution to capture local features.
+<p align="center">
+<img src=".\img\ILC.png" height = "150" alt="" align=center />
+<br><br>
+</p>
+
+#### Causal frequency enhancement module
+We use causal frequency enhancement module to discover global correlations
+<p align="center">
+<img src=".\img\CFE.png" height = "150" alt="" align=center />
 <br><br>
 </p>
 
