@@ -21,7 +21,7 @@ The seasonal part contains several different patterns after Multi-scale Hybrid D
 #### Local-Global module
 We use downsampling convolution to extract local features and isometric convolution to capture global correlations. 
 <p align="center">
-<img src=".\img\local-global.png" height = "150" alt="" align=center />
+<img src=".\img\LG.png" height = "150" alt="" align=center />
 <br><br>
 </p>
 
