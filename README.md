@@ -1,4 +1,4 @@
-# MICN (Please stay tuned for further updates on our progress. Thank you for your interest in our work.)
+# MLGN (Please stay tuned for further updates on our progress. Thank you for your interest in our work.)
 Code release of paper ["Multi-Scale Local-Global Feature Learning Network for Long-term Series Forecasting"](https://openreview.net/) 
 MLGN achieve SOTA on six benchmarks.
 
