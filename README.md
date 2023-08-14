@@ -109,6 +109,8 @@ If you find this repo useful, please cite our paper
 
 We appreciate the following github repos a lot for their valuable code base or datasets:
 
+https://github.com/MAZiqing/FEDformer
+
 https://github.com/thuml/Autoformer
 
 https://github.com/zhouhaoyi/Informer2020
