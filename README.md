@@ -1,5 +1,5 @@
 # MLGN (Please stay tuned for further updates on our progress. Thank you for your interest in our work.)
-Code release of paper ["Multi-Scale Local-Global Feature Learning Network for Long-term Series Forecasting"](https://openreview.net/) 
+Code release of paper ["Multi-Scale Local-Global Feature Learning Network for Long-term Series Forecasting"]([https://openreview.net](https://iopscience.iop.org/article/10.1088/2632-2153/ad1436/pdf)/) 
 MLGN achieve SOTA on six benchmarks.
 
 ![state-of-the-art](https://img.shields.io/badge/-STATE--OF--THE--ART-blue?logo=Accenture&labelColor=lightgrey)![pytorch](https://img.shields.io/badge/-PyTorch-%23EE4C2C?logo=PyTorch&labelColor=lightgrey)
